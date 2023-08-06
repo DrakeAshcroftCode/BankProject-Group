@@ -1,19 +1,72 @@
-<!-- Hannan Ali, Marina Mpani, Drake Ashcroft group website project -->
-
+<!-- Group website project by Hannan Ali, Marina Mpani, and Drake Ashcroft -->
+<!-- HTML document for Advantage Financial - Online Banking Platform -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advantage Financial</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title shows in the tab area on the browser, also useful for search engine optimization. -->
+  <title>Advantage - Leading Online Banking Platform</title>
+  <!-- Meta description and keywords (for search engine optimization) -->
+  <meta name="description" content="Welcome to Advantage Financial.">
+  <meta name="keywords" content="Banking, Money, Dolla Bills">
+  <!-- External stylesheet and jQuery library (Jquery not currently utilised, might use it later)-->
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+  <!-- Header section -->
+  <header>
+    <!-- Navigation bar and logo/company name -->
     <nav>
-        <a href="aboutUs.html">About Us</a>
-        <a href="signUp.html">Sign Up</a>
-        <a href="offers">OFfers</a>
+      <div class="logo">
+        <img src="images/Advantage-Logo.png" alt="Advantage Financial logo" width="80" height="80">
+      </div>
+  <div class="HeaderHeader">Advantage Financial</div>
 
-    </nav>
+  <!-- Navigation links -->
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="signUp.html">Register</a></li>
+    <li><a href="aboutUs.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+<!-- Main content section -->
+<main>
+  <!-- Hero (most visible image/area on home page) section with a prominent heading -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Advantage Financial</h1>
+      <p>Giving Your Pennies a Purpose</p>
+          <!-- Button for user sign up -->
+    <a href="signUp.html" class="cta">Sign Up Now</a>
+</div>
+</section>
+<!-- Bottom area (Chip image, could add testiomonials here) -->
+<div class="bottomContent">
+<img src="/images/Chip.png" alt="interac chip logo" width="60" height="80">
+<h2><u>New for 2023</u></h2>
+<p>Ultra-secure super trustworthy always reliable digital nanochip technology in all of our debit and credit card products.</p>
+</div>
+</main>
+<footer>
+  <!-- Copyright information -->
+  <p>© 2023 Advantage Financial - All rights reserved.</p>
+</footer>
+<!-- SVG element for drop shadow effect -->
+<svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" style="position:absolute;">
+  <filter id="drop-shadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
+    <feOffset dx="0" dy="0" result="offsetblur"/>
+    <feFlood flood-color="rgba(0,0,0,0.5)"/>
+    <feComposite in2="offsetblur" operator="in"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</svg>
 </body>
 </html>
