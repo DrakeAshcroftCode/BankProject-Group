@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #D4632A;
+  padding: 20px;
+  color: white;
+}
+
+.HeaderHeader {
+  color: grey;
+  font-weight: bolder;
+  font-size: 32px;
+  font-family: Georgia, serif;
+  padding-right: 40%;
+}
+
+.logo {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  z-index: 0;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: url(#drop-shadow);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: url(#drop-shadow);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  filter: url(#drop-shadow);
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-image: url("tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 3em;
+  filter: url(#drop-shadow);
+  font-family: Georgia, serif;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  filter: url(#drop-shadow);
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 22px;
+}
+
+.cta {
+  background-color: #D4632A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bottomContent {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  filter: url(#drop-shadow);
+  width: 20%;
+  background-color: #D4632A;
+}
+
+.bottomContent img {
+  width: 40px;
+  height: 60px;
+  filter: url(#drop-shadow);
+  box-shadow: #f0f0f0;
+}
+
+.bottomContent h2 {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.bottomContent p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #D4632A;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
