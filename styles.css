@@ -106,24 +106,28 @@ nav {
   border-radius: 10px;
   filter: url(#drop-shadow);
   width: 20%;
-  background-color: #D4632A;
+  background-color: #b8724f;
 }
 
 .bottomContent img {
   width: 40px;
   height: 60px;
-  filter: url(#drop-shadow);
-  box-shadow: #f0f0f0;
 }
 
 .bottomContent h2 {
   font-size: 24px;
   cursor: pointer;
+  font-family: Georgia, serif;
+  font-weight: bold;
+
 }
 
 .bottomContent p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  filter: url(#drop-shadow);
+
 }
 
 footer {
