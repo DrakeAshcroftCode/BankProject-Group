@@ -133,6 +133,7 @@ nav {
   filter: url(#drop-shadow); /* Applies a drop shadow effect to the section */
   width: 30%; /* Sets the width of the section */
   background-color: #b8724f; /* Sets the background color of the section */
+  margin-bottom:100px;
 }
 
 /* Style for the bottom content image */
@@ -152,12 +153,13 @@ nav {
 }
 
 /* Style for the bottom content text */
-/* Style pour le texte du contenu inférieur */
+/* Style pou r le texte du contenu inférieur */
 .bottomContent p {
   font-size: 14px; /* Sets the font size of the text */
   font-weight: bold; /* Makes the text font bold */
   font-family: Verdana, Geneva, Tahoma, sans-serif; /* Chooses a specific font for the text */
   filter: url(#drop-shadow); /* Applies a drop shadow effect to the text */
+  margin-bottom:15px;  /* adds space between the bottom of the text and the bottom of the container */ 
 }
 
 /* Style for the footer section at the bottom of the page */
