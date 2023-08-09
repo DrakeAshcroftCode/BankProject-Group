@@ -134,6 +134,7 @@ nav {
   width: 30%; /* Sets the width of the section */
   background-color: #b8724f; /* Sets the background color of the section */
   margin-bottom:100px;
+  position:absolute;
 }
 
 /* Style for the bottom content image */
@@ -172,4 +173,80 @@ footer {
   position: fixed; /* Fixes the footer to the bottom of the viewport */
   bottom: 0; /* Positions the footer at the bottom */
   width: 100%; /* Sets the width of the footer */
+}
+
+/* Testimonials section styles */
+.testimonials {
+  text-align: center;
+  padding: 10px 0;
+  margin-left:16%;
+  background-color: #b8724f;
+  justify-content: flex-end;
+  align-content: center;
+  width:70%;
+  margin-bottom:65px;
+  border-radius: 50px;
+  filter: url(#drop-shadow);
+}
+
+.testimonials h2 {
+  margin-right:20%;
+  padding:10px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left:15%;
+}
+
+.user-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-feedback p {
+  font-style: italic;
+  margin-left: 15px;
+  max-width: 70%;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.findus {
+  margin-top:10px;
+  margin-right:3%;
+  display:flex;
+  justify-content:flex-end;
+  position:;
+  border:5px solid black;
+  width:fit-content;
+  margin-left:auto;
+  margin-bottom:50px;
+  filter: url(#drop-shadow);
+
+
+}
+.finduslabel {
+  display:flex;
+  justify-content:flex-end ;
+  margin-right:20%;
+  margin-top:50px;
+  filter: url(#drop-shadow);
+
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+  .testimonial {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .user-avatar img {
+    margin-bottom: 10px;
+  }
 }
