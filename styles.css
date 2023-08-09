@@ -1,141 +1,175 @@
+/* Apply box-sizing to all elements */
+/* Applique le modèle de boîte à tous les éléments */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Set basic styles for the entire page */
+/* Définit les styles de base pour l'ensemble de la page */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif; /* Chooses the font for text */
+  background-color: #f0f0f0; /* Sets the background color */
 }
 
+/* Style for the header section at the top of the page */
+/* Style pour la section en-tête en haut de la page */
 header {
-  background-color: #D4632A;
-  padding: 20px;
-  color: white;
+  background-color: #D4632A; /* Sets the background color of the header */
+  padding: 20px; /* Adds space inside the header */
+  color: white; /* Sets the text color inside the header */
 }
 
 .HeaderHeader {
-  color: grey;
-  font-weight: bolder;
-  font-size: 32px;
-  font-family: Georgia, serif;
-  padding-right: 40%;
+  color: grey; /* Sets the color of the header title */
+  font-weight: bolder; /* Makes the title font bold */
+  font-size: 32px; /* Sets the font size of the title */
+  font-family: Georgia, serif; /* Chooses a specific font for the title */
+  padding-right: 30%; /* Adds space on the right side of the title */
 }
 
+/* Style for the logo and its container */
+/* Style pour le logo et son conteneur */
 .logo {
-  position: relative;
-  width: 90px;
-  height: 90px;
-  z-index: 0;
+  position: relative; /* Sets the logo to be positioned relatively to its container */
+  width: 90px; /* Sets the width of the logo */
+  height: 90px; /* Sets the height of the logo */
+  z-index: 0; /* Controls the stacking order of elements */
 }
 
+/* Style for the logo image */
+/* Style pour l'image du logo */
 .logo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  filter: url(#drop-shadow);
+  display: block; /* Makes the image a block element */
+  width: 100%; /* Sets the width of the image */
+  height: auto; /* Automatically adjusts the image height */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the image */
 }
 
+/* Style for the navigation bar */
+/* Style pour la barre de navigation */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  filter: url(#drop-shadow);
+  display: flex; /* Displays navigation items in a row */
+  justify-content: space-between; /* Distributes items evenly along the horizontal axis */
+  align-items: center; /* Aligns items vertically in the center */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the navigation */
 }
 
+/* Style for the navigation links */
+/* Style pour les liens de navigation */
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  filter: url(#drop-shadow);
-  border: solid 2px;
-  border-radius: 5px;
-  padding: 5px;
+  list-style: none; /* Removes the default list styles */
+  display: flex; /* Displays links in a row */
+  gap: 20px; /* Adds space between each link */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the navigation links */
+  border: solid 2px; /* Adds a border around the navigation links */
+  border-radius: 5px; /* Rounds the corners of the border */
+  padding: 5px; /* Adds space inside the border */
 }
 
+/* Style for navigation link text */
+/* Style pour le texte des liens de navigation */
 .nav-links a {
-  color: white;
-  text-decoration: none;
+  color: white; /* Sets the text color of the navigation links */
+  text-decoration: none; /* Removes underlines from the links */
 }
 
+/* Style for the hero section */
+/* Style pour la section héroïque */
 .hero {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  background-image: url("tree.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  height: 70vh; /* Sets the height of the hero section */
+  display: flex; /* Displays content in a column */
+  flex-direction: column; /* Arranges content in a column */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  color: white; /* Sets the text color */
+  text-align: center; /* Centers text within the section */
+  padding: 20px; /* Adds space inside the section */
+  background-image: url("tree.jpg"); /* Sets the background image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-size: cover; /* Scales the image to cover the entire section */
+  width: 100%; /* Sets the width of the section */
 }
 
+/* Style for the hero section title */
+/* Style pour le titre de la section héroïque */
 .hero h1 {
-  font-size: 3em;
-  filter: url(#drop-shadow);
-  font-family: Georgia, serif;
+  font-size: 3em; /* Sets the font size of the title */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the title */
+  font-family: Georgia, serif; /* Chooses a specific font for the title */
 }
 
+/* Style for the hero section content */
+/* Style pour le contenu de la section héroïque */
 .hero-content p {
-  margin: 20px 0;
-  filter: url(#drop-shadow);
-  font-weight: bold;
-  font-family: Georgia, serif;
-  font-size: 22px;
+  margin: 20px 0; /* Adds space above and below the paragraph */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the paragraph */
+  font-weight: bold; /* Makes the paragraph font bold */
+  font-family: Georgia, serif; /* Chooses a specific font for the paragraph */
+  font-size: 22px; /* Sets the font size of the paragraph */
 }
 
+/* Style for the Call to Action button */
+/* Style pour le bouton d'appel à l'action */
 .cta {
-  background-color: #D4632A;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+  background-color: #D4632A; /* Sets the background color of the button */
+  color: white; /* Sets the text color of the button */
+  padding: 10px 20px; /* Adds space inside the button */
+  text-decoration: none; /* Removes underlines from the button text */
+  border-radius: 5px; /* Rounds the corners of the button */
 }
 
+/* Style for the bottom content section */
+/* Style pour la section de contenu inférieur */
 .bottomContent {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  border-radius: 10px;
-  filter: url(#drop-shadow);
-  width: 20%;
-  background-color: #b8724f;
+  margin: 10px; /* Adds space around the section */
+  display: flex; /* Displays content in a column */
+  flex-direction: column; /* Arranges content in a column */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  padding: 5px; /* Adds space inside the section */
+  border-radius: 10px; /* Rounds the corners of the section */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the section */
+  width: 30%; /* Sets the width of the section */
+  background-color: #b8724f; /* Sets the background color of the section */
+  margin-bottom:100px;
 }
 
+/* Style for the bottom content image */
+/* Style pour l'image du contenu inférieur */
 .bottomContent img {
-  width: 45px;
-  height: 60px;
+  width: 45px; /* Sets the width of the image */
+  height: 60px; /* Sets the height of the image */
 }
 
+/* Style for the bottom content heading */
+/* Style pour le titre du contenu inférieur */
 .bottomContent h2 {
-  font-size: 24px;
-  cursor: pointer;
-  font-family: Georgia, serif;
-  font-weight: bold;
-
+  font-size: 24px; /* Sets the font size of the heading */
+  cursor: pointer; /* Changes cursor to a pointer on hover */
+  font-family: Georgia, serif; /* Chooses a specific font for the heading */
+  font-weight: bold; /* Makes the heading font bold */
 }
 
+/* Style for the bottom content text */
+/* Style pou r le texte du contenu inférieur */
 .bottomContent p {
-  font-size: 14px;
-  font-weight: bold;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  filter: url(#drop-shadow);
-
+  font-size: 14px; /* Sets the font size of the text */
+  font-weight: bold; /* Makes the text font bold */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Chooses a specific font for the text */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the text */
+  margin-bottom:15px;  /* adds space between the bottom of the text and the bottom of the container */ 
 }
 
+/* Style for the footer section at the bottom of the page */
+/* Style pour la section pied de page en bas de la page */
 footer {
-  background-color: #D4632A;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background-color: #D4632A; /* Sets the background color of the footer */
+  color: white; /* Sets the text color of the footer */
+  padding: 20px; /* Adds space inside the footer */
+  text-align: center; /* Centers text within the footer */
+  position: fixed; /* Fixes the footer to the bottom of the viewport */
+  bottom: 0; /* Positions the footer at the bottom */
+  width: 100%; /* Sets the width of the footer */
 }
