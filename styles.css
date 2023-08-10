@@ -10,7 +10,7 @@
 /* Définit les styles de base pour l'ensemble de la page */
 body {
   font-family: Arial, sans-serif; /* Chooses the font for text */
-  background-color: #f0f0f0; /* Sets the background color */
+  background-image: linear-gradient(orange, rgb(255, 207, 117), white)
 }
 
 /* Style for the header section at the top of the page */
@@ -90,6 +90,7 @@ nav {
   background-repeat: no-repeat; /* Prevents image repetition */
   background-size: cover; /* Scales the image to cover the entire section */
   width: 100%; /* Sets the width of the section */
+  border-bottom:solid 2px white;
 }
 
 /* Style for the hero section title */
@@ -134,7 +135,10 @@ nav {
   width: 30%; /* Sets the width of the section */
   background-color: #b8724f; /* Sets the background color of the section */
   margin-bottom:100px;
+  margin-top:25px;
+  margin-left:25px;
   position:absolute;
+  border:solid 2px #D4632A;
 }
 
 /* Style for the bottom content image */
@@ -179,19 +183,22 @@ footer {
 .testimonials {
   text-align: center;
   padding: 10px 0;
-  margin-left:16%;
+  margin-left:25%;
   background-color: #b8724f;
   justify-content: flex-end;
   align-content: center;
-  width:70%;
+  width:55%;
   margin-bottom:65px;
   border-radius: 50px;
   filter: url(#drop-shadow);
+  border:solid 2px #D4632A;
+
 }
 
 .testimonials h2 {
   margin-right:20%;
   padding:10px;
+  
 }
 
 .testimonial {
@@ -199,6 +206,7 @@ footer {
   align-items: center;
   margin-bottom: 20px;
   margin-left:15%;
+  
 }
 
 .user-avatar img {
@@ -223,7 +231,7 @@ footer {
   display:flex;
   justify-content:flex-end;
   position:;
-  border:5px solid black;
+  border:solid 2px #D4632A;
   width:fit-content;
   margin-left:auto;
   margin-bottom:50px;
@@ -237,6 +245,7 @@ footer {
   margin-right:20%;
   margin-top:50px;
   filter: url(#drop-shadow);
+}
 
 
 /* Adjustments for responsiveness */
