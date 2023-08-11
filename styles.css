@@ -21,6 +21,7 @@ header {
   background-color: #D4632A; /* Sets the background color of the header */
   padding: 20px; /* Adds space inside the header */
   color: white; /* Sets the text color inside the header */
+  border-bottom: 2px solid #6d3011;
 }
 
 .HeaderHeader {
@@ -56,6 +57,8 @@ nav {
   justify-content: space-between; /* Distributes items evenly along the horizontal axis */
   align-items: center; /* Aligns items vertically in the center */
   filter: url(#drop-shadow); /* Applies a drop shadow effect to the navigation */
+
+
 }
 
 /* Style for the navigation links */
@@ -68,6 +71,8 @@ nav {
   border: solid 2px; /* Adds a border around the navigation links */
   border-radius: 5px; /* Rounds the corners of the border */
   padding: 5px; /* Adds space inside the border */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2)
+
 }
 
 /* Style for navigation link text */
@@ -92,8 +97,10 @@ nav {
   background-repeat: no-repeat; /* Prevents image repetition */
   background-size: cover; /* Scales the image to cover the entire section */
   width: 100%; /* Sets the width of the section */
-  border-bottom:solid 2px white;
+  border-bottom:solid 2px #6d3011;
 }
+
+.hero img {}
 
 /* Style for the hero section title */
 /* Style pour le titre de la section héroïque */
@@ -189,7 +196,7 @@ footer {
   background-color: #b8724f;
   justify-content: flex-end;
   align-content: center;
-  width:55%;
+  width:50%;
   margin-bottom:65px;
   border-radius: 50px;
   filter: url(#drop-shadow);
@@ -207,13 +214,22 @@ footer {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  margin-left:15%;
+  margin-left:20%;
+  background-color:white;
+  width:60%;
+  padding-left:10px;
+  margin-top:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:15px;
+  border:solid 2px #D4632A;
+
   
 }
 
 .user-avatar img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -246,6 +262,8 @@ footer {
   margin-right:20%;
   margin-top:50px;
   filter: url(#drop-shadow);
+
+  
 }
 .user-avatar img {
   margin-bottom: 10px;
@@ -266,6 +284,7 @@ footer {
   border:solid 2px #D4632A;
   position:absolute;
 }
+
 .bottomImage {
   position:relative;
   margin-left:700px;
@@ -341,9 +360,22 @@ footer {
   background-color: #b8724f; /* Sets the background color of the section */
   margin-left:35%;
   margin-top:8%;
+
 }
   .aboutadvantage p {
     font-size: 14px; /* Sets the font size of the text */
     font-weight: bold; /* Makes the text font bold */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Chooses a specific font for the text */
     filter: url(#drop-shadow); /* Applies a drop shadow effect to the text */ }
+
+    .nav-links a {
+      color: white; /* Sets the text color of the navigation links */
+      text-decoration: none; /* Removes underlines from the links */
+      position: relative; /* Set the position to enable z-index */
+    }
+    
+    /* Add a shadow effect when hovering over the navigation links */
+    .nav-links a:hover {
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+      z-index: 1; /* Bring the link to the top of the stacking order */
+    }
