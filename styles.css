@@ -232,7 +232,6 @@ footer {
   margin-right:3%;
   display:flex;
   justify-content:flex-end;
-  position:;
   border:solid 2px #D4632A;
   width:fit-content;
   margin-left:auto;
@@ -328,3 +327,23 @@ footer {
 .contact-form button:hover {
   background-color: #D4632A;
 }
+
+.aboutadvantage{
+  margin: 10px; /* Adds space around the section */
+  display: flex; /* Displays content in a column */
+  flex-direction: column; /* Arranges content in a column */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  padding: 5px; /* Adds space inside the section */
+  border-radius: 10px; /* Rounds the corners of the section */
+  filter: url(#drop-shadow); /* Applies a drop shadow effect to the section */
+  width: 30%; /* Sets the width of the section */
+  background-color: #b8724f; /* Sets the background color of the section */
+  margin-left:35%;
+  margin-top:8%;
+}
+  .aboutadvantage p {
+    font-size: 14px; /* Sets the font size of the text */
+    font-weight: bold; /* Makes the text font bold */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Chooses a specific font for the text */
+    filter: url(#drop-shadow); /* Applies a drop shadow effect to the text */ }
