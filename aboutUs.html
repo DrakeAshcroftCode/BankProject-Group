@@ -1,62 +1,97 @@
+<!-- Group website project by Hannan Ali, Marina Mpani, and Drake Ashcroft -->
+<!-- Projet de site de groupe par Hannan Ali, Marina Mpani et Drake Ashcroft -->
+<!-- HTML document for Advantage Financial - Online Banking Platform -->
+<!-- Document HTML pour la plateforme de banque en ligne Advantage Financial -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title shows in the tab area on the browser, also useful for search engine optimization. -->
+  <!-- Le titre s'affiche dans la zone d'onglet du navigateur, utile également pour l'optimisation des moteurs de recherche. -->
+  <title>Advantage - Leading Online Banking Platform</title>
+  <!-- Meta description and keywords (for search engine optimization) -->
+  <!-- Description méta et mots-clés (pour l'optimisation des moteurs de recherche) -->
+  <meta name="description" content="Welcome to Advantage Financial.">
+  <meta name="keywords" content="Banking, Money, Dolla Bills">
+  <!-- External stylesheet and jQuery library (Jquery not currently utilised, might use it later)-->
+  <!-- Feuille de style externe et bibliothèque jQuery (jQuery actuellement non utilisé, pourrait être utilisé ultérieurement) -->
   <link rel="stylesheet" href="styles.css">
-  <title>About Us - Advantage Financial</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+  <!-- Header section -->
+  <!-- Section en-tête -->
   <header>
-    <div class="logo">
-      <img src="images/Advantage-Logo.png" alt="Advantage Financial Logo">
-    </div>
-    <div class="HeaderHeader">Advantage Financial</div>
+    <!-- Navigation bar and logo/company name -->
+    <!-- Barre de navigation et logo/nom de l'entreprise -->
     <nav>
+      <div class="logo">
+        <img src="images/Advantage-Logo.png" alt="Advantage Financial logo" width="80" height="80">
+      </div>
+      <div class="HeaderHeader">Advantage Financial</div>
+
+      <!-- Navigation links -->
+      <!-- Liens de navigation -->
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signUp.html">Register</a></li>
+        <li><a href="aboutUs.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
-  <div class="hero">
-    <h1>Welcome to Advantage Financial</h1>
-    <div class="hero-content">
-      <p>Your trusted partner in financial solutions.</p>
-      <a class="cta" href="#">Learn More</a>
-    </div>
-  </div>
-  
-  <div class="bottomContent">
-    <h2>Our Mission</h2>
-    <img src="mission-icon.png" alt="Mission Icon">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </div>
-  
-  <div class="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial">
-      <div class="user-avatar">
-        <img src="user-avatar1.png" alt="User Avatar">
-      </div>
-      <div class="user-feedback">
-        <p>"Great experience with Advantage Financial. Their services are top-notch!"</p>
-        <div class="user-name">John Doe</div>
-      </div>
-    </div>
-    <!-- Add more testimonials here -->
-  </div>
+  <!-- Main content section -->
+  <!-- Section du contenu principal -->
+  <main>
+    <div class="aboutadvantage">
 
-  <div class="findus">
-    <div class="finduslabel">Find Us</div>
-    <!-- Add map or contact information here -->
-  </div>
-  
+    <center><p>🏦 About Us 🏦 <br><br></p>
+
+      Welcome to Advantage Financial – the place where numbers do the tango and your cash gets a standing ovation. We're not your average snooze-fest bank; we're the symphony of financial finesse, conducted with a wink and a smile.
+      
+      <br><br>💼 The Money Maestros 💼 <br><br>
+      
+      Behind those polished desks and sharp suits are our financial wizards, the modern-day Merlin's of money management. They'll make your funds grow like you're watering a money tree, but without the hassle of dirt under your nails.
+      
+      <br><br>🎩 Elegance 🎩<br><br>
+      
+      Our headquarters are more suave than James Bond ordering a martini – shaken, not stirred. Picture chandeliers that out-bling your aunt's crystal collection and leather chairs so comfy, they practically hug you when you sit down.
+      
+      <br><br>🌟 Banking Stars 🌟<br><br>
+      
+      When you walk in, it's like a red carpet affair – minus the paparazzi. Our tellers treat you like the superstar you are, because let's face it, managing your finances requires an Oscar-worthy performance.
+      
+      <br><br>💳 Cards with Class 💳<br><br>
+      
+      Our credit cards aren't just pieces of plastic; they're like your financial sidekicks. Slide one out, and you'll feel like you're flashing a VIP pass to life's grand gala – and no velvet ropes can hold you back.
+      
+      <br><br> 🌐 Beyond Banking 🌐<br><br>
+      
+      We're not just confined to vaults and ATMs; we're all about community too. Our charity events are classier than a black-tie gala – and they'll warm your heart faster than a heated steering wheel on a winter morning.
+      
+      At Advantage Financial, we're the masters of money management, the virtuosos of value. So, if you're ready to waltz into a world of banking that's as smooth as silk but as solid as a vault door, then tip your hat to us – because we're ready to be your financial partner in crime.</p>
+</center>
+    </div>
+  </main>
   <footer>
-    &copy; 2023 Advantage Financial. All rights reserved.
+    <!-- Copyright information -->
+    <!-- Informations sur les droits d'auteur -->
+    <p>© 2023 Advantage Financial - All rights reserved.</p>
   </footer>
+  <!-- SVG element for drop shadow effect -->
+  <!-- Élément SVG pour l'effet d'ombre portée -->
+  <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" style="position:absolute;">
+    <filter id="drop-shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feFlood flood-color="rgba(0,0,0,0.5)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </svg>
 </body>
 </html>
