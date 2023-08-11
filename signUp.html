@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,88 @@
     <title>Advantagee</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- <label id="formheader" for="Signup">Sign Up</label> -->
-    <header> 
-        <nav><div class="logo">
-         <img src="Advantage-Logo.png">
-        </div>
-        <div class="HeaderHeader">Advantage Financial</div>
-    </nav>
-        </header>
-        <div class="imagebackground"></div>
-        <div class="Signupform">
+    <header>
+        <nav>
+            <div class="logo">
+              <img src="images/Advantage-Logo.png" alt="Advantage Financial logo" width="80" height="80">
+            </div>
+            <div class="HeaderHeader">Advantage Financial</div>
+      
+            <!-- Navigation links -->
+            <!-- Liens de navigation -->
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="signUp.html">Register</a></li>
+              <li><a href="aboutUs.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    
+    <div class="imagebackground"></div>
+    <div class="Signupform">
 
-    <form id="Signup">
-        
-        <ul>
-            <h3>Sign Up</h3>
-        <li for="fn">First Name</label>
-        <input type="text" id="fn" name="fname" placeholder="First Name" required/>
-        <br><br>
+        <form id="Signup">
 
-        <ul>
-        <li for="ln">Last Name</label>
-        <input type="text" id="ln" name="lname" placeholder="Last Name" required>
-        <br><br>
+            <ul>
+                <div class="Signupform">
+                    <form id="Signup">
+                        <h3>Sign Up</h3>
+                    
+                <li for="fn">First Name</li>
+                <textarea rows="2" cols="20" id="TITLE">
+                </textarea> 
+                
+                <br><br>
 
-        <li for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email" required>
-        <br><br>
+                
+                <li for="ln">Last Name</li>
+                            <textarea rows="2" cols="20" id="TITLE">
+                            </textarea> 
+                
+                <br><br>
 
-        <li for="passwd">Password</label>
-        <input type="password" id="paswd" name="paswd" placeholder="Password" required/>
-        <br><br>
+                <li for="email">Email</li>
+                <textarea rows="2" cols="20" id="TITLE">
+                </textarea> 
+                
+                <br><br>
+
+                <li for="passwd">Password</label>
+                    <textarea rows="2" cols="20" id="TITLE">
+                    </textarea> 
+                
+                <br><br>
 
 
         <label for="submit"></label>
-        <input type="submit"value="Submit"/>
-        
+        <input id="submit" type="submit" value="Submit"/>
+
+
         </form>
-        </div>
-    
-</div>
-        <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" style="position:absolute;">
-            <filter id="drop-shadow">
-              <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
-              <feOffset dx="0" dy="0" result="offsetblur"/>
-              <feFlood flood-color="rgba(0,0,0,0.5)"/>
-              <feComposite in2="offsetblur" operator="in"/>
-              <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
-              </feMerge>
-            </filter>
-          </svg>
+    </div>
+
+    </div>
+    </ul>
+    <footer>
+        <p>© 2023 Advantage Financial - All rights reserved.</p>
+    </footer>
+    <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" style="position:absolute;">
+        <filter id="drop-shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="9" />
+            <feOffset dx="0" dy="0" result="offsetblur" />
+            <feFlood flood-color="rgba(0,0,0,0.5)" />
+            <feComposite in2="offsetblur" operator="in" />
+            <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </svg>
+
 </body>
+
 </html>
-<!--  -->
