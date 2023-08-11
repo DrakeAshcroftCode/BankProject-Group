@@ -34,7 +34,7 @@
       <!-- Navigation links -->
       <!-- Liens de navigation -->
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="signUp.html">Register</a></li>
         <li><a href="aboutUs.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -44,7 +44,21 @@
   <!-- Main content section -->
   <!-- Section du contenu principal -->
   <main>
-
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </main>
   <footer>
     <!-- Copyright information -->
