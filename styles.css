@@ -10,6 +10,8 @@
 /* Définit les styles de base pour l'ensemble de la page */
 body {
   font-family: Arial, sans-serif; /* Chooses the font for text */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  height:100vh;
   background-image: linear-gradient(orange, rgb(255, 207, 117), white)
 }
 
@@ -246,7 +248,34 @@ footer {
   margin-top:50px;
   filter: url(#drop-shadow);
 }
+.user-avatar img {
+  margin-bottom: 10px;
+}
 
+.bottomText {
+  text-align: center;
+  padding: 30px 0;
+  margin-left:2%;
+  background-color: #b8724f;
+  justify-content: flex-end;
+  align-content: center;
+  width:55%;
+  margin-top:55px;
+  margin-bottom:25px;
+  border-radius: 50px;
+  filter: url(#drop-shadow);
+  border:solid 2px #D4632A;
+  position:absolute;
+}
+.bottomImage {
+  position:relative;
+  margin-left:600px;
+  z-index:-200000;
+  margin-bottom:190px;
+  width:400px;
+  border:solid 2px #D4632A;
+  filter: url(#drop-shadow);
+}
 
 /* Adjustments for responsiveness */
 @media (max-width: 768px) {
@@ -255,7 +284,4 @@ footer {
     text-align: center;
   }
 
-  .user-avatar img {
-    margin-bottom: 10px;
-  }
 }
